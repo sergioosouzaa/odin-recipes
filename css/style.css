@@ -1,0 +1,63 @@
+* {
+    background-color: azure;
+    font-family: 'Courier New', monospace;
+    font-size: 30px;
+}
+
+h1 {
+    color: cadetblue;
+    font-size: 70px;
+}
+
+ol {
+    font-weight: bold;
+}
+
+ul{
+    font-weight: bold;
+    list-style-position: inside;
+}
+
+ 
+ul li {    
+    font-weight: normal;
+    list-style-image: url(cat.svg);
+}
+
+
+ol li{
+    font-weight: normal;
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+.final-msg{
+    background-color: yellow;
+    display:table-cell;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.your-centered-div {
+    width: 560px; 
+    height: 315px; 
+
+    position: bottom; 
+    top: 0; right: 0; 
+    bottom: 0; left: 0;
+    margin: auto; 
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+}
